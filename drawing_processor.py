@@ -13,7 +13,7 @@ from typing import Any, Iterable, Optional
 
 import ezdxf
 
-from .config import Settings
+from config import Settings
 from .models import FingerprintResult
 
 
