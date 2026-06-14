@@ -4,11 +4,11 @@ import json
 import logging
 from typing import Any
 
-from .airtable_client import AirtableClient
-from .config import Settings
-from .drawing_processor import fingerprint_attachment, is_supported_drawing
-from .gmail_client import get_message_with_attachments
-from .models import (
+from airtable_client import AirtableClient
+from config import Settings
+from drawing_processor import fingerprint_attachment, is_supported_drawing
+from gmail_client import get_message_with_attachments
+from models import (
     STATUS_DUPLICATE,
     STATUS_NEW,
     STATUS_REVIEW,
@@ -18,8 +18,8 @@ from .models import (
     FingerprintResult,
     ProcessResult,
 )
-from .notifier import notify_results
-from .storage import save_original_file
+from notifier import notify_results
+from storage import save_original_file
 
 
 LOGGER = logging.getLogger(__name__)
