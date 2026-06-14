@@ -6,8 +6,8 @@ import logging
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload
 
-from .config import Settings
-from .gmail_client import get_google_credentials
+from config import Settings
+from gmail_client import get_google_credentials
 
 
 LOGGER = logging.getLogger(__name__)
