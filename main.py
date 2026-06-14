@@ -8,9 +8,9 @@ import uvicorn
 from fastapi import FastAPI, Header, HTTPException, Request
 from pydantic import BaseModel
 
-from .automation import process_gmail_message
-from .config import Settings
-from .gmail_client import authorize_gmail
+from automation import process_gmail_message
+from config import Settings
+from gmail_client import authorize_gmail
 
 
 logging.basicConfig(
