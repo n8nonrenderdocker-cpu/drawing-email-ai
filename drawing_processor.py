@@ -14,7 +14,7 @@ from typing import Any, Iterable, Optional
 import ezdxf
 
 from config import Settings
-from .models import FingerprintResult
+from models import FingerprintResult
 
 
 LOGGER = logging.getLogger(__name__)
