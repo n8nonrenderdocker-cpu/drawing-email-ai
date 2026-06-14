@@ -6,8 +6,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-from .config import Settings
-from .google_drive_client import upload_to_google_drive
+from config import Settings
+from google_drive_client import upload_to_google_drive
 
 
 @dataclass(frozen=True)
