@@ -1,0 +1,1 @@
+"""Drawing email automation package."""
