@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 import requests
 
-from .config import Settings
+from config import Settings
 
 
 LOGGER = logging.getLogger(__name__)
