@@ -81,7 +81,7 @@ def cli() -> None:
         for result in results:
             LOGGER.info("%s - %s - %s", result.filename, result.status, result.message)
     elif args.command == "serve":
-        uvicorn.run("src.main:app", host=args.host, port=args.port, reload=False)
+         uvicorn.run("main:app", host=args.host, port=args.port, reload=False)
 
 
 if __name__ == "__main__":
