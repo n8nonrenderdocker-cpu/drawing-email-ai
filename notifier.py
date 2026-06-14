@@ -5,9 +5,9 @@ from typing import Iterable
 
 import requests
 
-from .config import Settings
-from .gmail_client import send_gmail_notification
-from .models import ProcessResult
+from config import Settings
+from gmail_client import send_gmail_notification
+from models import ProcessResult
 
 
 LOGGER = logging.getLogger(__name__)
